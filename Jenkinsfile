@@ -32,10 +32,8 @@ stages {
 		steps {
 
 				sh "service httpd start"
-				echo "Hellow All" >> /var/www/html/index.html
 				
 				 
-				sh "chmod -R 777 index.html"
 			}
 	}
 
@@ -44,4 +42,4 @@ stages {
 
 
 
-}
+
